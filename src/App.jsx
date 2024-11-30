@@ -13,7 +13,7 @@ import GoogleSearchMeta from './GoogleSearchMeta'
 const App=()=> {
   return (
    <>
-    <GoogleSearchMeta />
+    {/* <GoogleSearchMeta /> */}
    <Header />
    <Navbar />
    <About/>

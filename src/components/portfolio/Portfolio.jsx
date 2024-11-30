@@ -4,6 +4,8 @@ import img1 from '../../assets/1.png'
 import img2 from '../../assets/2.png'
 import img3 from '../../assets/3.jpeg'
 import img4 from '../../assets/4.jpeg'
+import img5 from '../../assets/5.jpeg'
+import img6 from '../../assets/6.png'
 function Portfolio() {
   return (
    <section id='portfolio'> 
@@ -50,8 +52,34 @@ function Portfolio() {
             
            </div>
         </article>
-        
-
+        <article className="portfolio-item">
+            <div className="portfolio_item-image">
+                <img src={img5} alt="" />
+            </div>
+            <h3>Tea Value Chain Management System</h3>
+            <h4>Epic Lanka 
+                Project
+            </h4>
+            <h5>Spring Boot ,Angular ,Microservice,MySQL</h5>
+           <div className="portfolio__item-cta">
+           {/* <a href="https://github.com/DilshanRathnayaka/Lounch-site" target="_blank" className='btn'>Github</a> */}
+            
+           </div>
+        </article>
+        <article className="portfolio-item">
+            <div className="portfolio_item-image">
+                <img src={img6} alt="" />
+            </div>
+            <h3>Stamp Duty and Opinion System</h3>
+            <h4>Epic Lanka 
+                Project
+            </h4>
+            <h5>Spring Boot ,Angular ,Microservice,MySQL</h5>
+           <div className="portfolio__item-cta">
+           {/* <a href="https://github.com/DilshanRathnayaka/Lounch-site" target="_blank" className='btn'>Github</a> */}
+            
+           </div>
+        </article>
 
    </div>
    </section>

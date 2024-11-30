@@ -26,8 +26,8 @@ function services() {
             <p>Integration of third party services such as Firebase/ AWS / Docker</p>
               </li>
               <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Develop interactive Mobile Applications using Flutter</p>
+            {/* <BiCheck className='service__list-icon'/> */}
+            {/* <p>Develop interactive Mobile Applications using Flutter</p> */}
               </li>
         </ul>
     

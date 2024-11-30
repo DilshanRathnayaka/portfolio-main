@@ -24,7 +24,7 @@ function Experience() {
               </article>
               <article className='experience__details'>
                   <BsFillPatchCheckFill className='experience__details-icon'/>
-                  <div><h4>Tailwind</h4>
+                  <div><h4>Next JS</h4>
                   <small className='text-light'>Experienced</small></div>
               </article>
               <article className='experience__details'>
@@ -37,7 +37,11 @@ function Experience() {
                   <div><h4>Bootstrap</h4>
                   <small className='text-light'>Experienced</small></div>
               </article>
-             
+              <article className='experience__details'>
+                  <BsFillPatchCheckFill className='experience__details-icon'/>
+                  <div><h4>Angular</h4>
+                  <small className='text-light'>Experienced</small></div>
+              </article>
             </div>
 
         </div>
@@ -53,7 +57,7 @@ function Experience() {
               </article>
               <article className='experience__details'>
                   <BsFillPatchCheckFill className='experience__details-icon'/>
-                  <div><h4>PHP</h4>
+                  <div><h4>Spring Boot</h4>
                   <small className='text-light'>Intermediate</small></div>
               </article>
               <article className='experience__details'>
